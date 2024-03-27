@@ -343,7 +343,7 @@ header.shadow .logo {
         height: 435px;
     }
     .post-content {
-        margin-top: 9rem !important;
+        margin-top: 12rem !important;
     }
 }
 @media (max-width: 570px) {
@@ -361,6 +361,16 @@ header.shadow .logo {
         row-gap: 1rem;
         padding: 20px 0;
         text-align: center;
+    }
+}
+@media (max-width: 494px) {
+    .post-content {
+        margin-top: 15rem !important;
+    }
+}
+@media (max-width: 400px){
+    .post-content {
+        margin-top: 18rem !important;
     }
 }
 @media (max-width: 396px) { 
@@ -385,13 +395,13 @@ header.shadow .logo {
     .post-header {
         height: 335;;
     }
-    .post-content {
-        margin-top: 5rem !important;
-    }
     .post-text {
         font-size: 0.875rem;
         line-height: 1.5rem;
         margin: 10px 0;
+    }
+    .post-content {
+        margin-top: 3rem !important;
     }
 }
 @media (max-width: 395px) { 
@@ -400,6 +410,11 @@ header.shadow .logo {
     }
     .support {
         font-size: 0.8rem;
+    }
+}
+@media (max-width: 346px) { 
+    .post-content {
+        margin-top: 5rem !important;
     }
 }
 /* Page Animations */
